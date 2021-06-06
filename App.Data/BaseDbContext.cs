@@ -40,5 +40,14 @@ namespace App.Data
         public DbSet<ExpressStaffData> ExpressStaffDatas { get; set; }
         public DbSet<RetentionTimeData> RetentionTimeDatas { get; set; }
 
+
+        public DbSet<ArrivalSMSData> ArrivalSMSDatas { get; set; }
+
+        public DbSet<PhotoData> PhotoDatas { get; set; }
+
+        public DbSet<StaffManagementData> StaffManagementDatas { get; set; }
+        public DbSet<StoreData> StoreDatas { get; set; }
+
+        public DbSet<SwitchSettingsData> SwitchSettingsDatas { get; set; }
     }
 }
